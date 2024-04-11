@@ -96,6 +96,7 @@ html{
 
 .headers h1{
     margin: 2rem 0;
+    font
 }
 
 .headers button{
@@ -118,11 +119,15 @@ html{
 
     .headers{
         padding: 0 1rem;
-        width: 100%;
+        width: fit-content;
     }
 
     .main_container{
         width: 100%;
         margin: 0;
+    }
+
+    .headers button{
+        background-color: rgb(155, 155, 155);
     }
 }

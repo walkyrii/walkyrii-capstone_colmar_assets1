@@ -58,7 +58,7 @@ html{
         display: none;
     }
     .nav_bar_mobile{
-        margin: 0 1.5rem;
+        padding: 0 1.5rem;
         width: -webkit-fill-available;
     }
 }
@@ -86,13 +86,20 @@ html{
 }
 
 .headers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 1.5rem;
-    padding: 12rem 0;
+    padding: 0 1rem;
     width: 30%;
 }
 
-.headers h1, .headers p{
-    margin-bottom: 2rem;
+.headers h1{
+    margin: 2rem 0;
+}
+
+.headers button{
+    margin: 1.5rem 0 2rem 0;
 }
 
 .headers button{
@@ -101,4 +108,21 @@ html{
     background-color: rgb(74, 74, 74);
     border: none;
     color: white;
+}
+/* mobile banner */
+
+@media only screen and (max-width: 450px){
+    .banner{
+    display: block;
+    }
+
+    .headers{
+        padding: 0 1rem;
+        width: 100%;
+    }
+
+    .main_container{
+        width: 100%;
+        margin: 0;
+    }
 }

@@ -62,3 +62,43 @@ html{
         width: -webkit-fill-available;
     }
 }
+
+/* main containers */
+
+.main_container{
+    width: 60%;
+}
+
+.main_container img{
+    width: 100%;
+}
+
+/* banner */
+
+.banner{
+    padding-top: 4rem;
+    display: flex;
+    background-color: rgb(216, 216, 216);
+}
+
+.main_container{
+    margin: 2rem 1.5rem;
+}
+
+.headers{
+    font-size: 1.5rem;
+    padding: 12rem 0;
+    width: 30%;
+}
+
+.headers h1, .headers p{
+    margin-bottom: 2rem;
+}
+
+.headers button{
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: rgb(74, 74, 74);
+    border: none;
+    color: white;
+}

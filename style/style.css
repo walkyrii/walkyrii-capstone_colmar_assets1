@@ -1,0 +1,54 @@
+html{
+    color: rgb(74, 74, 74);
+    font-family: sans-serif;
+}
+
+/* navbar for desktop*/
+
+.nav_bar, .logo title, .title, .navigations{
+    display: flex;
+    align-items: center;
+} 
+
+.title p{
+    font-weight: bold;
+}
+
+.title span{
+    color: rgb(155, 155, 155);
+}
+
+.nav_bar{
+    justify-content: space-between;
+    height: 4rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+
+.logo{
+    height: 2rem;
+    margin-left: 1rem;
+    height: auto;
+}
+
+.logo img{
+    width: 7vh;
+}
+
+.navigations{
+    margin: 0 1.5rem
+}
+
+.navigations li{
+    margin: 0 0.5rem;
+}
+
+@media only screen and (min-width: 450px){
+    .nav_bar_phone{
+        display: none;
+    }
+}
+/* navbar for mobile */
+

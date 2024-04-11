@@ -57,4 +57,8 @@ html{
     .nav_bar_desktop{
         display: none;
     }
+    .nav_bar_mobile{
+        margin: 0 1.5rem;
+        width: -webkit-fill-available;
+    }
 }

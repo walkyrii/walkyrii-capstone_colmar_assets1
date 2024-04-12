@@ -65,7 +65,7 @@ html{
 
 /* main containers */
 
-.main_container, .presntation{
+.main_container, .content{
     margin: 2rem 1.5rem;
     width: 60%;
 }
@@ -128,8 +128,8 @@ html{
     }
 }
 
-/* presntation */
+/* content */
 
-.presntation-h1{
+.content-h1{
     margin-bottom: 1.5rem;
 }

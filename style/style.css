@@ -45,7 +45,7 @@ html{
     margin: 0 0.5rem;
 }
 
-@media only screen and (min-width: 451px){
+@media only screen and (min-width: 701px){
     .nav_bar_mobile{
         display: none;
     }
@@ -53,7 +53,7 @@ html{
 
 /* navbar for mobile */
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 700px){
     .nav_bar_desktop{
         display: none;
     }
@@ -108,7 +108,7 @@ html{
 }
 /* mobile banner */
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 700px){
     .banner{
     display: block;
     }
@@ -116,6 +116,7 @@ html{
     .headers{
         padding: 0 1rem;
         width: fit-content;
+        margin: auto;
     }
 
     .main_container{
@@ -138,6 +139,7 @@ html{
 
 .presentation, .side-container{
     display: flex;
+    background-color: rgb(243, 245, 245);
 }
 
 .side-container-img{
@@ -175,3 +177,44 @@ html{
     background-color: rgb(216, 216, 216);
 }
 
+@media only screen and (min-width: 701px){
+    #img_for_mobile{
+        display: none;
+    }
+}
+
+/* presentation for mobile */
+
+@media only screen and (max-width:700px){
+
+    #img_for_desktop{
+        display: none;
+    }
+
+   .presentation .main_container{
+    display: none;
+   }
+
+   .side-container{
+    display: block;
+   }
+
+   .campus-info{
+    width: 100%;
+    padding: 1rem 1rem 2rem 1rem;
+   }
+
+   .side-container-img{
+    width: auto;
+    padding: 0;
+   }
+
+   .side-container-content{
+    margin: 0;
+    width: auto;
+   }
+
+   #side-container-middle{
+    margin: 4rem 0;
+   }
+}

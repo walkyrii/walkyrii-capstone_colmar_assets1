@@ -65,7 +65,8 @@ html{
 
 /* main containers */
 
-.main_container{
+.main_container, .presntation{
+    margin: 2rem 1.5rem;
     width: 60%;
 }
 
@@ -81,10 +82,6 @@ html{
     background-color: rgb(216, 216, 216);
 }
 
-.main_container{
-    margin: 2rem 1.5rem;
-}
-
 .headers{
     display: flex;
     flex-direction: column;
@@ -96,7 +93,6 @@ html{
 
 .headers h1{
     margin: 2rem 0;
-    font
 }
 
 .headers button{
@@ -130,4 +126,10 @@ html{
     .headers button{
         background-color: rgb(155, 155, 155);
     }
+}
+
+/* presntation */
+
+.presntation-h1{
+    margin-bottom: 1.5rem;
 }

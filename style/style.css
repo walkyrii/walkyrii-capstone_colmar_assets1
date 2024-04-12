@@ -65,7 +65,7 @@ html{
 
 /* main containers */
 
-.main_container, .content{
+.main_container{
     margin: 2rem 1.5rem;
     width: 60%;
 }
@@ -133,3 +133,45 @@ html{
 .content-h1{
     margin-bottom: 1.5rem;
 }
+
+/* container with a side container */
+
+.presentation, .side-container{
+    display: flex;
+}
+
+.side-container-img{
+    width: 35%;
+    padding: 1rem;
+}
+
+.side-container-img img{
+    width: 100%;
+    height: auto;
+}
+
+.side-container-content{
+    width: 65%;
+    margin: auto;
+}
+
+.campus-info{
+    padding: 1rem;
+    width: 40%;
+}
+
+.side-container-content a{
+    color: rgb(81, 148, 227);
+    width: fit-content;
+}
+
+.side-container-content p{
+    margin: 0.5rem 0;
+}
+
+/* transition */
+
+.side-container:hover{
+    background-color: rgb(216, 216, 216);
+}
+

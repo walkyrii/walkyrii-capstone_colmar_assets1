@@ -311,3 +311,20 @@ html{
         padding-bottom: 1.5rem;
     }
 }
+
+/* footer */
+
+.footer{
+    display: flex;
+    padding: 1rem 1.5rem 3rem 1.5rem;
+    justify-content: space-between;
+    border-top: solid rgb(224, 224, 226);
+}
+
+.footer div{
+    display: flex;
+}
+
+div p{
+    padding-right: 0.5rem;
+}

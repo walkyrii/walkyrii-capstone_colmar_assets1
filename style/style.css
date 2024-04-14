@@ -70,7 +70,7 @@ html{
     width: 60%;
 }
 
-.main_container img, .img_container img{
+.main_container img, .img_container img, .main_container video{
     width: 100%;
 }
 
@@ -138,7 +138,7 @@ html{
 
 /* container with a side container */
 
-.presentation, .side-container{
+.main-sidecontainers, .side-container{
     display: flex;
     background-color: rgb(243, 245, 245);
 }
@@ -158,7 +158,7 @@ html{
     margin: auto;
 }
 
-.campus-info{
+.side_containers{
     padding: 1rem;
     width: 40%;
 }
@@ -287,5 +287,27 @@ html{
 
     .header{
         padding-bottom: 1rem;
+    }
+}
+/* thesis */
+
+.thesis-h1{
+    padding: 1rem 0;
+    text-align: center;
+    background-color: rgb(243, 245, 245);
+}
+
+.thesis-content-h1{
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+@media only screen and (max-width: 700px){
+
+    .thesis .content, .thesis .side_containers{
+        display: none;
+    }
+
+    .thesis_main_container{
+        padding-bottom: 1.5rem;
     }
 }

@@ -279,6 +279,8 @@ html{
 
     .courses{
         background-color: rgb(245, 244, 245);
+        border: solid rgb(233, 234, 234);
+        margin: 3px;
     }
 
     .courses-mobile{
@@ -327,4 +329,10 @@ html{
 
 div p{
     padding-right: 0.5rem;
+}
+
+@media only screen and (max-width: 700px){
+    .footer .terms_privacy{
+        display: none;
+    }
 }
